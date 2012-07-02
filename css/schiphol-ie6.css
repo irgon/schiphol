@@ -1,0 +1,896 @@
+html, body,  span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, button
+table, caption, tbody, tfoot, thead, tr, th, td {
+   zoom:1;
+}
+
+#top ul.menu li a,
+#menu li a {
+    float: left;
+}
+
+#menu li.last a {
+    float: none;
+}
+
+#top div.right ul.infobar li.weather {
+    margin-right: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-position: right top;
+    vertical-align: baseline;
+    /*m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' button-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' button-hover', '')"), this.parsed = 1));*/
+    height: 20px;
+    margin-bottom: 0px;
+}
+
+button div {
+    white-space: nowrap;
+    zoom: 1;
+    background-position: left top;
+    height: 21px;
+	margin-top: 0px;
+	margin-bottom: -3px;
+}
+
+button.button-hover {
+    background-position: right -20px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+button.button-hover div {
+    background-position: left -20px;
+    height: 21px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+a.button.noarrow,
+button.noarrow {
+    background-image: url(../img/button-right-noarrow.gif);
+}
+
+div.content a.button-alone {
+    _background-image: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/small-button.png",sizingMethod="crop");
+}
+
+div.content a.button-alone:hover {
+    _background-image: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/small-button-hover.png",sizingMethod="crop");
+}
+
+a.small-button {
+    background-image: url(../img/small-button.gif);
+}
+
+div.box-bigimage-hover a.small-button,
+a.small-button:hover {
+    background-image: url(../img/small-button-hover.gif);
+}
+
+
+
+#top #logo a {
+    _background-image: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/logo.png",sizingMethod="crop") ;
+}
+
+#flights form button {
+    top: 11px;
+    right: 6px;
+}
+
+#group #top #logo a {
+    _background-image: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/group-logo.png",sizingMethod="crop") ;
+}
+
+
+#menu ul li.last {
+    border-right-style: none;
+}
+
+#menu ul li.blinder {
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/menu-blinder.png",sizingMethod="crop") ;
+}
+
+div.box-bigimage {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' box-bigimage-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' box-bigimage-hover', '')"), this.parsed = 1));
+}
+
+
+
+#content div.box ul.box-tabs li a {
+    float: left;
+}
+
+div.box-tickets a.more {
+    margin-top: 0;
+    bottom: 34px;
+    position: absolute;
+}
+
+div.box dl.dl-first {
+    margin-left: 24px;
+}
+
+#content div.box-low {
+    height: 182px;
+}
+
+div.box dl.big dd select {
+    width: 205px;
+}
+
+div.box div.box-content div.box-ul,
+div.box div.box-content div.box-ur,
+div.box div.box-content div.box-ll,
+div.box div.box-content div.box-lr,div.box div.box-content div.box-ul1,
+div.box div.box-content div.box-ur1,
+div.box div.box-content div.box-ll1,
+div.box div.box-content div.box-lr1 {
+    background-image: url(../img/box-corners.gif);
+}
+
+#group div.box div.box-content div.box-ul,
+#group div.box div.box-content div.box-ur,
+#group div.box div.box-content div.box-ll,
+#group div.box div.box-content div.box-lr,
+#group div.box div.box-content-news div.box-ll,
+#group div.box div.box-content-news div.box-lr,
+#group div.box div.box-content div.box-ul1,
+#group div.box div.box-content div.box-ur1,
+#group div.box div.box-content div.box-ll1,
+#group div.box div.box-content div.box-lr1{
+    background-image: url(../img/group-box-corners.gif);
+	
+}
+
+/* a.button,
+button {
+   background-image: url(../img/button-right.gif);
+}
+
+a.button span,
+button div {
+    background-image: url(../img/button-left.gif);
+}
+div.box-news a.button,
+div.box-news button {
+    background-image: url(../img/button-right-gray.gif);
+}
+
+div.box-news a.button span,
+div.box-news button div {
+    background-image: url(../img/button-left-gray.gif);
+}*/
+
+
+div.box-bigimage a.button,
+div.box-bigimage button {
+    background-image: url(../img/button-right-transparent.gif);
+}
+
+
+/*div.flights a.button,
+div.flights button,
+#flights a.button,
+#flights button {
+    background-image: url(../img/button-right-yellow.gif) ;
+	
+}
+
+div.flights a.button span,
+div.flights button div,
+#flights a.button span,
+#flights button div {
+    background-image: url(../img/button-left-yellow.gif) ;
+}*/
+
+
+#menu ul li a {
+    background-image: url(../img/mainmenu-tab.gif);
+}
+
+#menu ul li.selected a {
+    background-image: url(../img/mainmenu-tab-selected.gif);
+}
+
+#group #menu ul li a {
+    background-image: url(../img/group-mainmenu-tab.gif);
+}
+
+#group #menu ul li.selected a {
+    background-image: url(../img/group-mainmenu-tab-selected.gif);
+}
+
+#flights {
+    background-image: url(../img/flights-bg.gif);
+}
+
+div.flights ul.flights li.arrivals,
+#flights ul.flights li.arrivals {
+    background-image: url(../img/flights-arrivals.gif);
+    z: expression(this.parsedz ? 0 : (this.className.match(/selected/) ? (this.className += ' arrivals-selected') : 0),this.parsedz = 1);
+}
+
+#main #flights ul.flights li.arrivals-selected {
+    background-image: url(../img/flights-arrivals-selected.gif);
+}
+
+div.flights ul.flights li.departures,
+#flights ul.flights li.departures {
+    background-image: url(../img/flights-departures.gif);
+    z: expression(this.parsedz ? 0 : (this.className.match(/selected/) ? (this.className += ' departures-selected') : 0),this.parsedz = 1);
+}
+
+#main #flights ul.flights li.departures-selected {
+    background-image: url(../img/flights-departures-selected.gif);
+}
+
+#content div.flights ul.flights li.arrivals-selected {
+    background: url(../img/flights-arrivals-selected-big.gif) no-repeat;
+}
+
+#content div.flights ul.flights li.departures-selected {
+    background: url(../img/flights-departures-selected-big.gif) no-repeat;
+}
+
+div.box-news fieldset {
+    background-image: url(../img/box-news.gif);
+}
+
+div.box-news2 fieldset {
+    background-image: url(../img/box-news2.gif);
+}
+
+div.box div.box-content div.box-ll {
+    bottom: +21px;
+	
+}
+
+div.box div.box-content div.box-lr,div.box div.box-content-news div.box-lr{
+    bottom: +21px;
+}
+div.box div.box-content div.box-ll1 {
+    bottom: +22px;
+	left:-16px;
+}
+div.box div.box-content div.box-ul1 {
+   
+	margin-left:-15px;
+	margin-top: +1px;
+	
+}
+div.box div.box-content div.box-ur1 {
+   
+	margin-left:-15px;
+	margin-top: +1px;
+	
+}
+
+div.box div.box-content div.box-lr1 {
+    bottom: +22px;
+	
+}
+#content div.box-selected div.box-content div.box-ur1{
+    margin-left:-15px;
+	margin-top: +1px;
+}
+
+#content div.box-selected div.box-content div.box-lr1 {
+    bottom: +27px;
+	
+}
+#content div.box-selected div.box-content div.box-ll1 {
+    bottom: +27px;
+	left:-16px;
+}
+#content div.box-selected div.box-content div.box-ul1 {
+   
+	margin-left:-15px;
+	margin-top: +1px;
+	
+}
+ul.tabs-internal li,
+div.box ul.box-tabs li {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' li-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' li-hover', '')"), this.parsed = 1));
+    background-image: url(../img/box-tab-right.gif);
+}
+
+#group div.box ul.box-tabs li {
+    background-image: url(../img/group-box-tab-right.gif);
+}
+
+div.box ul.box-tabs li a {
+    background-image: url(../img/box-tab-left.gif);
+    float: left;
+}
+
+#group div.box ul.box-tabs li a {
+    background-image: url(../img/group-box-tab-left.gif);
+}
+
+ul.tabs-internal li.li-hover,
+div.box ul.box-tabs li.li-hover {
+    background-position: right top;
+}
+
+#content ul.tabs-internal li.li-hover a,
+div.box ul.box-tabs li.li-hover a {
+    background-position: left top;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu ul li {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += (this.className.match(/li-yellow/) ? ' li-selected-yellow' : ' li-hover'), (this.nextSibling == null ? 0 : this.nextSibling.className += (this.nextSibling.className.match(/selected/) ? ' li-selected-yellow' : ' li-yellow'))"), this.onmouseout = new Function("this.className = this.className.replace((this.className.match(/li-yellow/) ? ' li-selected-yellow' : ' li-hover'), ''), (this.nextSibling == null ? 0 : this.nextSibling.className = this.nextSibling.className.replace((this.nextSibling.className.match(/selected/) ? ' li-selected-yellow' : ' li-yellow'), ''))"), (this.previousSibling == null ? this.className += ' li-yellow' : 0), this.parsed = 1));
+}
+
+#menu ul li.selected {
+    m: expression(this.parsed ? 0 : (this.nextSibling.className += ' li-yellow', (this.previousSibling == null ? this.className += ' li-selected-yellow' : 0)), this.parsed = 1);
+}
+
+#menu ul li.li-hover {
+    border-right: solid 1px #eee09f;
+}
+
+#group #menu ul li.li-selected-yellow,
+#group #menu ul li.li-hover {
+    border-right: solid 1px #bfbda6;
+}
+
+body #menu ul li.blinder {
+    border: none;
+}
+
+#menu ul li.li-yellow a {
+    background: url(../img/mainmenu-tab-yellow.gif) no-repeat;
+}
+
+#menu ul li.li-selected-yellow a {
+    background: url(../img/mainmenu-tab-selected-yellow.gif) no-repeat;
+    color: #000000;
+}
+
+#menu ul li.li-hover a {
+    background: url(../img/mainmenu-tab-selected.gif) no-repeat;
+    color: #000000;
+}
+
+#group #menu ul li.li-yellow a {
+    background: url(../img/group-mainmenu-tab-yellow.gif) no-repeat;
+}
+
+#group #menu ul li.li-selected-yellow a {
+    background: url(../img/group-mainmenu-tab-selected-yellow.gif) no-repeat;
+    color: #000000;
+}
+
+#group #menu ul li.li-hover a {
+    background: url(../img/group-mainmenu-tab-selected.gif) no-repeat;
+    color: #000000;
+}
+
+#top div.right ul.infobar li.weather {
+    padding-right: 13px;
+}
+
+#top form.search input.submit {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' submit-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' submit-hover', '')"), this.parsed = 1));
+}
+
+#top form.search input.submit-hover {
+    background: url(../img/search-submit-hover.png) no-repeat;
+}
+
+#group #top form.search input.submit-hover {
+    background: url(../img/group-search-submit-hover.png) no-repeat;
+}
+
+
+#content div.box-onetab ul.box-tabs li,
+#content div.box-onetab ul.box-tabs li:hover,
+#content div.box-onetab ul.box-tabs li.selected {
+    background-image: url(../img/box-onetab-right.gif);
+}
+
+#content div.box-onetab ul.box-tabs li a,
+#content div.box-onetab ul.box-tabs li:hover a,
+#content div.box-onetab ul.box-tabs li.selected a {
+    background-image: url(../img/box-onetab-left.gif);
+    float: none;
+    color: #ffffff !important;
+}
+
+#group #content div.box-onetab ul.box-tabs li,
+#group #content div.box-onetab ul.box-tabs li:hover,
+#group #content div.box-onetab ul.box-tabs li.selected {
+    background-image: url(../img/group-box-onetab-right.gif);
+}
+
+#group #content div.box-onetab ul.box-tabs li a,
+#group #content div.box-onetab ul.box-tabs li:hover a,
+#group #content div.box-onetab ul.box-tabs li.selected a {
+    background-image: url(../img/group-box-onetab-left.gif);
+    float: none;
+    color: #ffffff !important;
+}
+
+#main div.box-low div.box-content div.box-ll,#main div.box-low div.box-content-news div.box-ll {
+    background-image: url(../img/main-box-low-ll.gif);
+}
+
+#footer h1 strong {
+    overflow: visible;
+    padding-bottom: 4px;
+    margin-bottom: -4px;
+}
+
+#main div.box-thin div.box-content {
+    background-image: url(../img/box-small-top.gif);
+}
+
+#group #main div.box-thin div.box-content {
+    background-image: url(../img/group-box-small-top.gif);
+}
+#group #main div.box-thin div.box-content-news {
+     background: url(../img/group-news-top.gif);
+}
+
+div.box a.button span {
+    float: left;
+}
+
+ul.sub li a em {
+    padding-left: 0;
+}
+
+ul.videos li {
+    margin-left: 0;
+    padding-left: 8px;
+}
+
+div.flights ul.flights li.arrivals,
+#flights ul.flights li.arrivals {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' arrivals-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' arrivals-hover', '')"), this.parsed = 1));
+}
+
+div.flights ul.flights li.departures,
+#flights ul.flights li.departures {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' departures-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' departures-hover', '')"), this.parsed = 1));
+}
+
+div.flights ul.flights li.arrivals-hover,
+#flights ul.flights li.arrivals-hover {
+    background: url(../img/flights-arrivals-hover.gif) no-repeat;
+}
+
+div.flights ul.flights li.departures-hover,
+#flights ul.flights li.departures-hover {
+    background: url(../img/flights-departures-hover.gif) no-repeat;
+}
+
+a.button span,
+button div {
+    line-height: 17px;
+}
+
+div.box #ways_one {
+    margin-left: 41px;
+}
+
+#flights table {
+    margin-top: -1px;
+}
+
+
+#flights form button {
+    position: absolute;
+    top: auto;
+    right: 11px;
+}
+
+#menu ul li.blinder {
+    top: 9px;
+}
+
+#top div.right ul.infobar li.weather,
+#top div.right ul.infobar li.mobile {
+    margin: 0;
+}
+
+#top div.right ul.infobar li.weather {
+    padding-right: 9px;
+}
+
+#top div.right ul.infobar li.languages ul {
+    float: right;
+}
+
+#top div.right ul.infobar li.languages ul li {
+    float: left;
+}
+
+div.selected {
+    background-image: url(../img/shade.gif);
+}
+/*
+ul.largelist li.largelist ul.info li.time {
+    background-image: url(../img/icon-time.gif);
+}
+
+ul.largelist li.largelist ul.info li.meals {
+    background-image: url(../img/icon-meals.gif);
+}
+*/
+ul.largelist li.largelist ul.info li.place {
+    background-image: url(../img/icon-place.gif);
+}
+
+ul.largelist li.largelist strong.tip {
+    _background-image: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/tip.png",sizingMethod="crop") ;
+}
+ul.largelist li.largelist ul.info {
+    height: 120px;
+}
+
+/*#group #main #cycler {
+    _background-image: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/group-low-cycle.png",sizingMethod="crop") ;
+}
+
+body.low #main #cycler {
+    _background-image: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/low-cycle.png",sizingMethod="crop") ;
+}*/
+
+#content div.left div.overflow {
+    float: left;
+    z: expression(this.parsedz ? 0 : (this.parentNode.className.match(/left/) ? (this.className += ' overflow-ie6') : 0),this.parsedz = 1);
+}
+
+#content div.left div.overflow-ie6 {
+    width: 480px;
+    float: left !important;
+}
+
+#content div.left div div.overflow {
+    float: none;
+}
+
+#content div.box-thinner ul.videos li {
+    margin: 0 0 0 19px;
+}
+
+body #content div.right {
+    width: 235px;
+    float: left !important;
+}
+
+body #content div.overflow-columns div.right {
+    margin-left:10px;
+}
+
+body.low #contact {
+    background-image: url(../img/vcard-toptop.gif);
+}
+
+body.low #contact ul li {
+    background-image: url(../img/vcard-bottom.gif);
+}
+
+#content ul.tabs-internal li a,
+#content div.box ul.box-tabs li a {
+    color: #ecb200;
+}
+
+#group #content ul.tabs-internal li a,
+#group #content div.box ul.box-tabs li a {
+    color: #a6a791;
+}
+
+#content ul.tabs-internal li.selected a,
+#content div.box ul.box-tabs li.selected a {
+    color: #ffffff;
+}
+
+#main ul.box-tabs li.li-hover a,
+#content ul.tabs-internal li:hover a,
+#content ul.tabs-internal li.selected a,
+#content div.box ul.box-tabs li.li-hover a,
+#content div.box ul.box-tabs li.selected a {
+    color: #ffffff !important;
+}
+
+ul.sub li a {
+    background-position: left 4px;
+}
+
+ul.news li p {
+    padding-left: 48px;
+}
+
+#menu ul {
+    position: relative;
+}
+
+#menu ul li.blinder {
+    position: absolute;
+    right: -1px;
+    top: 0;
+}
+
+div.box-news p {
+    float:right;
+    margin:6px 10px 0 0;
+    text-align:right;
+    width:135px;
+    margin-right: 5px;
+}
+#gapP{
+   float:right;
+    margin:6px 10px 0 0;
+    text-align:right;
+    width:135px;
+    margin-right: 5px;
+
+}
+#fieldset-width{
+  width: 304px;
+}
+/* multiple classes hack*/ 
+
+
+div.box-list div.box-content div.box-inside {
+    height: 139px !important;
+}
+div.box-content-news div.box-inside {
+    height: 139px !important;
+	margin-bottom:+23px;
+}
+div.box-low {
+    n: expression( this.parsedn ? 0 : (this.className.match(/box-notabs/) ? this.style.height = '165px' : this.style.height = '182px'), this.parsedn = 1);
+}
+
+div.box-tall {
+    o: expression( this.parsedo ? 0 : (this.className.match(/box-notabs/) ? this.style.height = '243px' : this.style.height = '264px'), this.parsedo = 1);
+}
+
+div.box-tall div.box-content div.box-inside  {
+    m: expression( this.parsedm ? 0 : (this.parentNode.className.match(/box-selected/) ? this.style.height = '225px' : this.style.height = '214px'), this.parsedm = 1 );
+}
+div.box-taller {
+    p: expression( this.parsedp ? 0 : (this.className.match(/box-notabs/) ? this.style.height = '356px' : this.style.height = '374px'), this.parsedp = 1);
+}
+
+div.box-tallest {
+    q: expression( this.parsedq ? 0 : (this.className.match(/box-notabs/) ? this.style.height = '449px' : this.style.height = '456px'), this.parsedq = 1);
+}
+
+div.box-low div.box-content div.box-inside,div.box-low div.box-content-news div.box-inside {
+    n: expression( this.parsedn ? 0 : (this.parentNode.parentNode.className.match(/box-notabs/) ? this.style.height = '119px' : this.style.height = '132px'), this.parsedn = 1);
+}
+
+
+div.box-middle div.box-content div.box-inside {
+    r: expression( this.parsedr ? 0 : (this.parentNode.parentNode.className.match(/box-notabs/) ? this.style.height = '273px' : this.style.height = '246px'), this.parsedr = 1);
+}
+
+
+/* ------------------------------------------------------------------------------- */
+#main div.box-tall {
+    height: 393px !important;  
+}
+
+#main div.box-tall div.box-content div.box-inside,#main div.box-tall div.box-content-news div.box-inside{
+    height: 333px !important;
+}
+
+#main div.box-low {
+    height: 200px !important;
+}
+
+#main div.box-thin {
+    width: 318px !important;
+}
+
+#main div.box-low div.box-content div.box-inside {
+    height: 141px !important;
+}
+
+#main div.box-low div.box-content div.box-ll {
+    bottom: -1px;
+}
+
+#main div.box div.box-content div.box-lr {
+    right: -1px;
+}
+
+#content div.leftoverflow {
+    float: left;
+    width: 725px;
+}
+
+#content {
+    z-index: -1;
+}
+
+#brandlogo {
+    top: 153px;
+}
+
+#main div.box-thin div.box-content div.box-inside a.more {
+    bottom: -2px;
+}
+div.box a.more {
+    padding: 0 13px 3px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+#wrapper #content ul.largelist li.largelist div.overflow a.more-hover span {
+    text-decoration: underline;
+	
+}
+
+div.pdf cite {
+    float: left;
+}
+
+body.low #contact ul {
+    height: 194px;
+}
+
+div.flights dl.flight ul li {
+    margin-right: 5px;
+}
+
+div.flights dl.flight ul li label {
+    float: left;
+}
+
+div.flights dl.flight ul li input {
+    clear: left;
+}
+
+div.flights dl.date label {
+    margin-right: 10px;
+}
+
+
+div.flightpanel table tbody {
+    a: expression(this.parseda ? 0 : (this.firstChild.firstChild.className += ' first'), this.parseda = 1);
+    b: expression(this.parsedb ? 0 : (this.firstChild.lastChild.className += ' last'), this.parsedb = 1);
+}
+
+div.flightpanel table tbody tr td.first {
+    background: #fdcb00 url(../img/top-flights-selected.png) no-repeat;
+    background-position: left top;
+}
+
+div.flightpanel table tbody tr td.last {
+    background: #fdcb00 url(../img/top-flights-selected.png) no-repeat;
+    background-position: right top;
+}
+
+div.flightpanel table tbody td {
+    background-color: #fdcb00;
+}
+
+div.flightpanel table td.detail ul.options li cite,
+div.flightpanel table td.detail ul.options li {
+    float: left;
+}
+
+div.flightpanel table td.detail ul.options {
+    x: expression(this.parsed ? 0 : this.lastChild.style.clear = 'left', this.parsed = 1);
+}
+
+#content div.search dl select {
+    margin-top: 1px;
+}
+
+#content div.search button {
+    bottom: 21px;
+}
+
+div.parking #map {
+    margin-right: 7px;
+}
+
+div.parking #map a {
+    filter: alpha(opacity=80);
+}
+
+#content table.parking tr td a.button-yellow span {
+    float: left;
+}
+
+table.parking td.logo {
+    padding-bottom: 0;
+}
+
+table.parking td.logo img {
+    height: 36px;
+    m: expression(this.parsed ? 0 : (this.style.width = this.offsetWidth + 'px', this.style.filter = 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="' + this.src + '",sizingMethod="crop")', this.src = '../img/pix.gif'), this.parsed = 1);
+}
+
+#wrapper #content div.continous div.overflow {
+    m: expression(this.parsed ? 0 : (this.parentNode.className.match(/continous/) ? this.className += ' continous-overflow' : 0, this.parsed = 1));
+}
+
+#wrapper #content div.continous div.continous-overflow {
+   padding-right: 10px;
+}
+
+#wrapper #content div.continous div.continous-overflow h1 {
+   margin-right: -10px;
+}
+
+#content div.left div.overflow-ie6,
+#content div.overflow div.leftoverflow {
+    j: expression(this.parsedj ? 0 : this.parentNode.style.height = (this.offsetHeight + 56) + 'px', this.parentNode.style.overflow = 'hidden', this.parsedj = 1);
+}
+
+ul.expand li.expanded ul li.expanded ul li {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' expand-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' expand-hover', '')"), this.parsed = 1));
+}
+
+ul.expand li.expanded ul li.expanded ul li.expand-hover {
+    background-image: url(../img/expand-dot-selected.png);
+    background-position: 3px 9px;
+}
+
+div.flightpanel table td.detail ul.options li cite {
+    padding-left: 0;
+}
+
+ul.tabs-internal li:hover a,
+ul.tabs-internal li.selected a,
+div.box ul.box-tabs li:hover a,
+div.box ul.box-tabs li.selected a,
+#content div.box-onetab ul.box-tabs li a, 
+#content div.box-onetab ul.box-tabs li:hover a, 
+#content div.box-onetab ul.box-tabs li.selected a {
+    font-weight: normal;
+}
+
+#content div.box-dummy {
+    height: 218px !important;
+}
+
+#content div.box-dummy div.box-content div.box-inside,#content div.box-dummy div.box-content-news div.box-inside{
+    height: 200px !important;
+}
+
+#content div.comment cite {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' cite-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' cite-hover', '')"), this.parsed = 1));
+}
+
+ul.largelist li.largelist ul.info li.place {
+    m: expression(this.parsed ? 0 : (this.onmouseover =  new Function("this.className += ' place-hover'"), this.onmouseout = new Function("this.className = this.className.replace(' place-hover', '')"), this.parsed = 1));
+}
+
+ul.largelist li.largelist ul.info li.place-hover {
+    background-image: url(../img/icon-place-hover.gif);
+}
+
+
+/* temporary hack */
+div.box-low div.box-inside {
+    height: 132px;
+}

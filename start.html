@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl">
+<head>
+    <title>Schiphol - Reizigers</title>
+
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="Robots" content="index, follow" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="css/schiphol.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE 6]>
+    <link href="css/schiphol-ie6.css" rel="stylesheet" media="screen" type="text/css" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link href="css/schiphol-ie7.css" rel="stylesheet" media="screen" type="text/css" />
+    <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+    <div id="top">
+        <div id="logo"><a href=""><img src="img/logo.png" alt="Amsterdam Airport Schiphol" /></a></div>
+        <div class="right">
+            <ul class="infobar">
+                <li class="weather"></li>
+                <li class="languages">
+                    <ul>
+                        <li class="english"><a href="">english</a></li>
+                        <li class="german"><a href="">german</a></li>
+                        <li class="french"><a href="">french</a></li>
+                        <li class="chinese"><a href="">chinese</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="search" method="get" action="">
+                <fieldset>
+                    <input name="keyword" value="" type="text" class="text"/>
+                    <input class="submit" type="submit" value="Zoek" />
+                </fieldset>
+            </form>
+        </div>
+        <ul class="menu">
+            <li class="selected">
+                <a href="" class="navigation" title="Reizigers">Reizigers</a>
+            </li>
+            <li>
+                <a href="" class="navigation" title="B2B">B2B</a>
+            </li>
+            <li>
+                <a href="" class="navigation" title="Vacatures">Vacatures</a>
+            </li>
+            <li>
+                <a href="" class="navigation" title="In de samenleving">In de samenleving</a>
+            </li>
+            <li>
+                <a href="" class="navigation" title="Schiphol Group">Schiphol Group</a>
+            </li>
+        </ul>
+    </div>
+    <div id="menu-container">
+        <div id="menu">
+            <ul>
+                <li class="first selected"><a href="">Home</a></li>
+                <li>
+                    <a href="" class="navigation" title="Vluchttijden">Vluchttijden</a>
+                </li>
+                <li>
+                    <a href="" class="navigation" title="Van &amp; naar Schiphol">Van & naar Schiphol </a>
+                </li>
+                <li>
+                    <a href="" class="navigation" title="Op Schiphol">Op Schiphol </a>
+                </li>
+                <li>
+                    <a href="" class="navigation" title="Winkelen &amp; ontspannen">Winkelen & ontspannen</a>
+                </li>
+                <li class="last index">
+                    <a href="" class="navigation" title="Reisbureau Schiphol.nl">Reisbureau Schiphol.nl </a>
+                </li>
+                <li class="blinder">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div id="cycler">
+            <!-- Flash goes here... -->
+        </div>
+        <div id="flights">
+            <ul class="flights">
+                <li class="arrivals selected"><a href="">Aankomst</a></li>
+                <li class="departures"><a href="">Vertrek</a></li>
+            </ul>
+            <div id="tab1">
+                <form action="" method="get">
+                    <fieldset>
+                        <input class="text from" type="text" name="number" value="vluchtnr." onclick="this.value = '';" />
+                        <input id="airport" class="text to" value="herkomst" type="text" name="from" onclick="this.value = '';" />
+                        <input name="typeofflight" type="hidden" value="arrivals" />
+                        <button type="submit"><div>Zoeken</div></button>
+                    </fieldset>
+                </form>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Tijd</th>
+                        <th>Vlucht</th>
+                        <th>Herkomst</th>
+                        <th>Status</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="mark">
+                        <td>04:20</td>
+                        <td>KL 9964</td>
+                        <td>Bogota</td>
+                        <td>Verwacht</td>
+                    </tr>
+                    <tr>
+                        <td>04:20</td>
+                        <td>KL 9964</td>
+                        <td>Rafael Hernande</td>
+                        <td>Verwacht</td>
+                    </tr>
+                    <tr class="mark">
+                        <td>04:20</td>
+                        <td>MP 0064</td>
+                        <td>Bogota</td>
+                        <td>Verwacht</td>
+                    </tr>
+                    <tr>
+                        <td>04:20</td>
+                        <td>MP 0064</td>
+                        <td>Rafael Hernande</td>
+                        <td>Verwacht</td>
+                    </tr>
+                    <tr class="mark">
+                        <td>04:25</td>
+                        <td>KL 9974</td>
+                        <td>Hong Kong</td>
+                        <td>Geland</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <a class="more" href=""><span>meer aankomende vluchten</span> &gt;</a>
+            </div>
+        </div>
+        <div id="portletSpacer"></div>
+        <p> </p>
+    </div>
+    <div id="content" style="zoom:1">
+        <div class="box box-thin box-image box-low box-parking1">
+            <ul class="box-tabs">
+                <li class="selected">
+                    <a href="">Parkeren</a>
+                </li>
+                <li>
+                    <a href="">Taxi`s</a>
+                </li>
+                <li>
+                    <a href="">Routeplanner</a>
+                </li>
+            </ul>
+            <div class="box-content box-parking1">
+                <div class="box-container">
+                    <div class="box-inside">
+                        <p>Op Schiphol parkeren? Vind de beste parkeerplek met de parkeerwijzer.</p>
+                        <a class="button" href="">
+                            <span>Parkeeradvies</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="box-ul"></div>
+                <div class="box-ur"></div>
+                <div class="box-ll ie6-leftfix"></div>
+                <div class="box-lr ie6-rightfix"></div>
+            </div>
+        </div>
+        <div class="box box-thin box-image box-low box-shop">
+            <ul class="box-tabs">
+                <li class="selected">
+                    <a href="">Winkelen</a>
+                </li>
+                <li>
+                    <a href="">Ontspannen</a>
+                </li>
+            </ul>
+            <div class="box-content">
+                <div class="box-container">
+                    <div class="box-inside">
+                        <p>Overdekt winkelen in meer dan 100 winkels. Keuze uit exclusieve winkels en elke dag geopend.</p><br />
+                        <ul class="sub">
+                            <li><a href="" class="normal" title="V&oacute;&oacute;r de paspoortcontrole">Vóór de paspoortcontrole </a></li>
+                            <li><a href="" class="normal" title="Na de paspoortcontrole">Na de paspoortcontrole</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-ul"></div>
+                <div class="box-ur"></div>
+                <div class="box-ll ie6-leftfix"></div>
+                <div class="box-lr ie6-rightfix"></div>
+            </div>
+        </div>
+        <div class="box box-thin box-image box-low box-last ">
+            <ul class="box-tabs">
+                <li class="selected">
+                    <a href="">Nieuws</a>
+                </li>
+                <li>
+                    <a href="">Nieuwsbrief</a>
+                </li>
+            </ul>
+            <div class="box-content">
+                <div class="box-container1">
+                    <div class="box-inside">
+                        <div>
+                            <ul class="news">
+                                <li>
+                                    <a class="expand" href="">
+                                        <span>[+]</span>
+                                        <em>11 dec</em>
+                                        <cite>Friendship Store op Schiphol Plaza</cite>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="expand" href="">
+                                        <span>[+]</span>
+                                        <em>11 dec</em>
+                                        <cite>Laat weten wat u vindt!</cite>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="expand" href="">
+                                        <span>[+]</span>
+                                        <em>25 nov</em>
+                                        <cite>Winnaars 'Kerstshop Catwalk'</cite>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="expand" href="">
+                                        <span>[+]</span>
+                                        <em>11 nov</em>
+                                        <cite>Welkom op het nieuwe Schiphol.nl!</cite>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="expand" href="">
+                                        <span>[+]</span>
+                                        <em>15 okt</em>
+                                        <cite>Ben jij een echte speurneus?</cite>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-ul"></div>
+                <div class="box-ur"></div>
+                <div class="box-ll ie6-leftfix"></div>
+                <div class="box-lr ie6-rightfix"></div>
+            </div>
+        </div>
+        <div class="box box-wide box-tall box-image box-tickets">
+            <ul id="ul238555" class="box-tabs">
+                <li class="selected">
+                    <a href="">Vakanties</a>
+                </li>
+                <li>
+                    <a href="">Vliegtickets</a>
+                </li>
+                <li>
+                    <a href="">Hotels</a>
+                </li>
+                <li>
+                    <a href="">Stedentrips</a>
+                </li>
+            </ul>
+            <div class="box-content">
+                <div class="box-container">
+                    <div class="box-inside">
+                        <p>Voordelige zonvakanties, strandvakanties en lastminute reizen in een compleet overzicht. Zoek en boek uw vakantie bij reisbureau Schiphol.nl <br /></p>
+                        <ul class="sub sub-cols">
+                            <li><a href="" class="normal" title="Canarische Eilanden">Canarische eilanden</a></li>
+                            <li><a href="" class="normal" title="Griekenland">Griekenland </a></li>
+                            <li><a href="" class="normal" title="Spanje">Spanje</a></li>
+                            <li><a href="" class="normal" title="Egypte">Egypte</a></li>
+                            <li><a href="" class="normal" title="Tunesi&euml;">Tunesie</a></li>
+                            <li><a href="" class="normal" title="Turkije">Turkije</a></li>
+                            <li><a href="" class="normal" title="Portugal">Portugal</a></li>
+                            <li><a href="" class="normal" title="Mexico">Mexico</a></li>
+                            <li><a href="" class="normal" title="Aruba">Aruba</a></li>
+                            <li><a href="" class="normal" title="Thailand">Thailand</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-ul"></div>
+                <div class="box-ur"></div>
+                <div class="box-ll ie6-leftfix"></div>
+                <div class="box-lr ie6-rightfix"></div>
+            </div>
+        </div>
+        <div class="box box-thin box-tall box-news box-last">
+            <ul class="box-tabs">
+                <li class="selected">
+                    <a href="">Schiphol TV</a>
+                </li>
+            </ul>
+            <div class="box-content">
+                <div class="box-inside">
+                </div>
+                <div class="box-ul"></div>
+                <div class="box-ur"></div>
+                <div class="box-ll ie6-leftfix"></div>
+                <div class="box-lr ie6-rightfix"></div>
+            </div>
+        </div>
+    </div>
+    <div id="links">
+        <ul>
+            <li><h2>Informatief</h2></li>
+            <li><a href="" class="normal" title="Schiphol TV">Schiphol TV</a></li>
+            <li><a href="" class="normal" title="Vacatures">A world of opportunities</a></li>
+            <li><a href="" class="normal" title="In de samenleving">In de Samenleving</a></li>
+            <li><a href="" class="normal" title="Schiphol Group">Schiphol Group</a></li>
+            <li><a href="" class="normal" title="B2B">B2B</a></li>
+        </ul>
+        <ul>
+            <li><h2>Voor reizigers</h2></li>
+            <li><a href="" class="normal" title="Vluchttijden">Aankomst- en vertrektijden</a></li>
+            <li><a href="" class="normal" title="Openbaar vervoer">Openbaar vervoer</a></li>
+            <li><a href="" class="normal" title="Parkeren">Parkeren</a></li>
+            <li><a href="" class="normal" title="Winkelen &amp; ontspannen">Winkelen</a></li>
+            <li><a href="" class="normal" title="Plattegronden">Plattegronden</a></li>
+        </ul>
+        <ul class="last">
+            <li><h2>Laatst door u bezocht</h2></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <h1><strong>Schiphol.</strong> Where else</h1>
+        <ul>
+            <li>&copy; Schiphol 2009</li>
+            <li><a href="" class="navigation" title="Contact">Contact</a></li>
+            <li><a href="" class="navigation" title="Sitemap">Sitemap</a></li>
+            <li><a href="" class="navigation" title="Disclaimer">Disclaimer</a></li>
+            <li><a href="" class="navigation" title="Privacy Policy">Privacy Policy</a></li>
+            <li class="last"><a href="" class="navigation" title="Schipholregels">Schipholregels</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

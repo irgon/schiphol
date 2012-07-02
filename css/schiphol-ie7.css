@@ -1,0 +1,169 @@
+button div {
+    white-space: nowrap;
+    zoom: 1;
+}
+
+div.box-tickets a.more {
+    padding-top: 19px;
+}
+
+#menu ul li.last {
+    border-right-style: none;
+}
+
+button {
+    background-position: right top;
+    cursor: pointer;
+}
+
+button div {
+    background-position: left top;
+}
+
+button:hover {
+    background-position: right -20px;
+    cursor: pointer;
+}
+
+button:hover div {
+    background-position: left -20px;
+}
+
+#flights form button {
+    top: 11px;
+    right: 6px;
+}
+
+a.button span
+{
+  line-height: 17px;
+}
+
+button div {
+    line-height: 17px;
+    margin-top:1px;    
+}
+
+div.box #ways_one {
+    margin-left: 45px;
+}
+
+#flights table {
+    margin-top: -1px;
+}
+
+#flights form button {
+    position: absolute;
+    top: auto;
+    right: 11px;
+}
+
+
+body.low #content div.right {
+    margin-top: 61px;
+}
+
+#group.low #content div.right,
+body.notop #content div.right {
+    margin-top: 90px;
+}
+
+body.low #content div.top-right {
+    margin-top: 124px;
+}
+
+#footer ul li {
+    padding: 0 6px 0 8px;
+}
+
+#main div.box {
+    right: -1px;
+}
+
+#main div.box div.box-content div.box-lr {
+    right: 1px;
+}
+
+ul.largelist li.largelist,
+div.comment {
+    zoom: 1;
+}
+
+div.flightpanel table tbody {
+    a: expression(this.parseda ? 0 : (this.firstChild.firstChild.className += ' first'), this.parseda = 1);
+    b: expression(this.parsedb ? 0 : (this.firstChild.lastChild.className += ' last'), this.parsedb = 1);
+}
+
+div.flightpanel table tbody tr td.first {
+    background: #fdcb00 url(../img/top-flights-selected.png) no-repeat;
+    background-position: left top;
+}
+
+div.flightpanel table tbody tr td.last {
+    background: #fdcb00 url(../img/top-flights-selected.png) no-repeat;
+    background-position: right top;
+}
+
+div.flightpanel table tbody td {
+    background-color: #fdcb00;
+}
+
+table.flights td a {
+    zoom: 1;
+}
+
+#content div.search dl select {
+    margin-top: 1px;
+}
+
+#content div.search button {
+    bottom: 22px;
+}
+
+div.parking #map a {
+    filter: alpha(opacity=80);
+}
+
+table.parking td.logo {
+    padding-bottom: 0;
+}
+
+div.flights dl.date label {
+    margin-right: 15px;
+}
+
+div.flights dl.date dt {
+    padding-top: 3px;
+}
+
+table.flights tr th select {
+    vertical-align: middle;
+}
+
+ul.tabs-internal li:hover a,
+ul.tabs-internal li.selected a,
+div.box ul.box-tabs li:hover a,
+div.box ul.box-tabs li.selected a,
+#content div.box-onetab ul.box-tabs li a, 
+#content div.box-onetab ul.box-tabs li:hover a, 
+#content div.box-onetab ul.box-tabs li.selected a {
+    font-weight: normal;
+}
+
+ul.largelist li ul.info,
+ul.largelist li ul.info li {
+    zoom: 1;
+    position: relative;
+    z-index: 1000;
+}
+
+div.flightpanel table td.detail ul.options li.online {
+    zoom: 1;
+}
+#content div.comment cite {
+    padding: 1px 0 3px 23px;
+    background: url(../img/icon-info.png) no-repeat;
+    background-position: left 1px;
+    font-size: 12px;
+	color:black;
+}

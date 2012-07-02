@@ -1,0 +1,519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl">
+<head>
+    <title>Schiphol - Reizigers</title>
+
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="Robots" content="index, follow" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="css/schiphol.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE 6]>
+    <link href="css/schiphol-ie6.css" rel="stylesheet" media="screen" type="text/css" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link href="css/schiphol-ie7.css" rel="stylesheet" media="screen" type="text/css" />
+    <![endif]-->
+</head>
+<body class="low notop">
+<div id="wrapper">
+    <div id="top">
+        <div id="logo"><a href=""><img src="img/logo.png" alt="Amsterdam Airport Schiphol" /></a></div>
+        <div class="right">
+            <ul class="infobar">
+                <li class="weather"></li>
+                <li class="languages">
+                    <ul>
+                        <li class="english"><a href="">english</a></li>
+                        <li class="german"><a href="">german</a></li>
+                        <li class="french"><a href="">french</a></li>
+                        <li class="chinese"><a href="">chinese</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="search" method="get" action="">
+                <fieldset>
+                    <input name="keyword" value="" type="text" class="text"/>
+                    <input class="submit" type="submit" value="Zoek" />
+                </fieldset>
+            </form>
+        </div>
+        <ul class="menu">
+            <li class="selected">
+                <a href="" class="navigation" title="Reizigers">Reizigers</a>
+            </li>
+            <li>
+                <a href="" class="navigation" title="B2B">B2B</a>
+            </li>
+            <li>
+                <a href="" class="navigation" title="Vacatures">Vacatures</a>
+            </li>
+            <li>
+                <a href="" class="navigation" title="In de samenleving">In de samenleving</a>
+            </li>
+            <li>
+                <a href="" class="navigation" title="Schiphol Group">Schiphol Group</a>
+            </li>
+        </ul>
+    </div>
+    <div id="menu-container">
+        <div id="menu">
+            <ul>
+                <li class="first"><a href="">Home</a></li>
+                <li class="selected">
+                    <a href="" class="navigation" title="Vluchttijden">Vluchttijden</a>
+                </li>
+                <li>
+                    <a href="" class="navigation" title="Van &amp; naar Schiphol">Van & naar Schiphol </a>
+                </li>
+                <li>
+                    <a href="" class="navigation" title="Op Schiphol">Op Schiphol </a>
+                </li>
+                <li>
+                    <a href="" class="navigation" title="Winkelen &amp; ontspannen">Winkelen & ontspannen</a>
+                </li>
+                <li class="last index">
+                    <a href="" class="navigation" title="Reisbureau Schiphol.nl">Reisbureau Schiphol.nl </a>
+                </li>
+                <li class="blinder">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main"></div>
+    <div id="content">
+        <div class="overflow">
+            <address class="navigation">
+                <a href="">Reizigers</a>&nbsp;&gt;&nbsp;Vluchttijden
+            </address>
+            <div class="menu">
+                <h2><a href="">Vluchttijden </a></h2>
+                <ul class="expand">
+                    <li>
+                        <a href="">Aankomsttijden</a>
+                    </li>
+                    <li>
+                        <a href="">Vertrektijden</a>
+                    </li>
+                    <li>
+                        <a href="">Dienstregeling</a>
+                    </li>
+                    <li>
+                        <a href="">Vluchtinformatie via SMS</a>
+                    </li>
+                    <li>
+                        <a href="">Vrachtvluchten</a>
+                    </li>
+                    <li>
+                        <a href="">Luchtvaartmaatschappijen</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="overflow leftoverflow">
+                <h1>Vluchttijden </h1>
+                <div class="flights">
+                    <div class="help"></div>
+                    <ul class="flights">
+                        <li class="arrivals selected"><a href="">Aankomst</a></li>
+                        <li class="departures"><a href="">Vertrek</a></li>
+                    </ul>
+                    <div id="tab1">
+                        <form action="" method="get">
+                            <fieldset>
+                                <dl class="date">
+                                    <dt>Datum:</dt>
+                                    <dd>
+                                        <label for="yesterday"><input type="radio" name="day"	id="yesterday" value="yesterday" />gisteren <cite>(ma 4 jan)</cite></label>
+                                        <label for="today"><input type="radio" name="day" id="today" value="today" CHECKED />vandaag <cite>(di 5 jan)</cite></label>
+                                        <label for="tomorrow"><input type="radio" name="day" id="tomorrow" value="tomorrow" />morgen <cite>(wo 6 jan)</cite></label>
+                                        <a class="more" href=""><span>na morgen</span> &gt;</a>
+                                    </dd>
+                                </dl>
+                                <dl class="flight">
+                                    <dt>Vlucht:</dt>
+                                    <dd>
+                                        <ul>
+                                            <li>
+                                                <label for="from">Herkomst</label>
+                                                <input type="text" value="" class="text" name="from" id="from" />
+                                            </li>
+                                            <li><label for="number">Vluchtnr.</label>
+                                                <input type="text" value="" class="text" id="number" name="number" />
+                                            </li>
+                                            <li>
+                                                <label for="society">Maatschappij</label>
+                                                <input type="text" value="" class="text" name="society" id="society" />
+                                            </li>
+                                        </ul>
+                                        <button type="submit"><div>zoek vlucht</div></button>
+                                    </dd>
+                                </dl>
+                            </fieldset>
+                        </form>
+                        <table class="flights">
+                            <thead>
+                                <tr class="shade">
+                                    <th>Tijd
+                                        <select name="time" style="width: 60px;">
+                                            <option value="00:00">00:00</option>
+                                            <option value="00:30">00:30</option>
+                                            <option value="01:00">01:00</option>
+                                            <option value="01:30">01:30</option>
+                                            <option value="02:00">02:00</option>
+                                            <option value="02:30">02:30</option>
+                                            <option value="03:00">03:00</option>
+                                            <option value="03:30">03:30</option>
+                                            <option value="04:00">04:00</option>
+                                            <option value="04:30">04:30</option>
+                                            <option value="05:00">05:00</option>
+                                            <option value="05:30">05:30</option>
+                                            <option value="06:00">06:00</option>
+                                            <option value="06:30">06:30</option>
+                                            <option value="07:00">07:00</option>
+                                            <option value="07:30">07:30</option>
+                                            <option value="08:00">08:00</option>
+                                            <option value="08:30">08:30</option>
+                                            <option value="09:00">09:00</option>
+                                            <option value="09:30">09:30</option>
+                                            <option value="10:00">10:00</option>
+                                            <option value="10:30">10:30</option>
+                                            <option value="11:00">11:00</option>
+                                            <option value="11:30">11:30</option>
+                                            <option value="12:00">12:00</option>
+                                            <option value="12:30">12:30</option>
+                                            <option value="13:00">13:00</option>
+                                            <option value="13:30">13:30</option>
+                                            <option value="14:00" selected="selected">14:00</option>
+                                            <option value="14:30">14:30</option>
+                                            <option value="15:00">15:00</option>
+                                            <option value="15:30">15:30</option>
+                                            <option value="16:00">16:00</option>
+                                            <option value="16:30">16:30</option>
+                                            <option value="17:00">17:00</option>
+                                            <option value="17:30">17:30</option>
+                                            <option value="18:00">18:00</option>
+                                            <option value="18:30">18:30</option>
+                                            <option value="19:00">19:00</option>
+                                            <option value="19:30">19:30</option>
+                                            <option value="20:00">20:00</option>
+                                            <option value="20:30">20:30</option>
+                                            <option value="21:00">21:00</option>
+                                            <option value="21:30">21:30</option>
+                                            <option value="22:00">22:00</option>
+                                            <option value="22:30">22:30</option>
+                                            <option value="23:00">23:00</option>
+                                            <option value="23:30">23:30</option>
+                                        </select>
+                                    </th>
+                                    <th>Herkomst</th>
+                                    <th>Vluchtnr.</th>
+                                    <th>Maatschappij</th>
+                                    <th>Status</th>
+                                    <th>Actuele info</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>14:00</td>
+                                    <td>London Heathrow</td>
+                                    <td>BA 0434</td>
+                                    <td>British Airways</td>
+                                    <td>Geland</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>14:05</td>
+                                    <td>Gothenburg</td>
+                                    <td>NW 8741</td>
+                                    <td>Northwest Airlines</td>
+                                    <td>Geland</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>14:05</td>
+                                    <td>Gothenburg</td>
+                                    <td>KL 1156</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Geland</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>14:10</td>
+                                    <td>Zurich</td>
+                                    <td>LX 0728</td>
+                                    <td>Swiss Int. Air Lines</td>
+                                    <td>Geland</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>14:15</td>
+                                    <td>London Heathrow</td>
+                                    <td>KL 1010</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Geland</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>14:15</td>
+                                    <td>London Heathrow</td>
+                                    <td>NW 8506</td>
+                                    <td>Northwest Airlines</td>
+                                    <td>Geland</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>14:15</td>
+                                    <td>Geneva</td>
+                                    <td>NW 8558</td>
+                                    <td>Northwest Airlines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>14:15</td>
+                                    <td>Geneva</td>
+                                    <td>KL 1928</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>14:20</td>
+                                    <td>Paris de Gaulle</td>
+                                    <td>KL 2012</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>14:20</td>
+                                    <td>Paris de Gaulle</td>
+                                    <td>MK 9642</td>
+                                    <td></td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>14:20</td>
+                                    <td>Paris de Gaulle</td>
+                                    <td>AF 1740</td>
+                                    <td>Air France</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>14:20</td>
+                                    <td>Stavanger</td>
+                                    <td>AZ 3767</td>
+                                    <td>Alitalia</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>14:20</td>
+                                    <td>Stavanger</td>
+                                    <td>AF 8306</td>
+                                    <td>Air France</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>14:20</td>
+                                    <td>Stavanger</td>
+                                    <td>KL 1200</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>14:20</td>
+                                    <td>Stavanger</td>
+                                    <td>NW 8374</td>
+                                    <td>Northwest Airlines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>14:30</td>
+                                    <td>Exeter</td>
+                                    <td>BE 1533</td>
+                                    <td>FlyBe</td>
+                                    <td>Geland</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>14:45</td>
+                                    <td>Madrid</td>
+                                    <td>IB 3246</td>
+                                    <td>Iberia</td>
+                                    <td>Vervroegd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>15:00</td>
+                                    <td>Lima</td>
+                                    <td>CZ 7618</td>
+                                    <td>China Southern Airlines</td>
+                                    <td>Vervroegd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>15:00</td>
+                                    <td>Lima</td>
+                                    <td>KL 0744</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Vervroegd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>15:00</td>
+                                    <td>Lima</td>
+                                    <td>AZ 3737</td>
+                                    <td>Alitalia</td>
+                                    <td>Vervroegd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>15:00</td>
+                                    <td>Lima</td>
+                                    <td>AF 8432</td>
+                                    <td>Air France</td>
+                                    <td>Vervroegd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>15:00</td>
+                                    <td>Vancouver</td>
+                                    <td>NW 8682</td>
+                                    <td>Northwest Airlines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>15:00</td>
+                                    <td>Vancouver</td>
+                                    <td>AF 8377</td>
+                                    <td>Air France</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>15:00</td>
+                                    <td>Vancouver</td>
+                                    <td>KL 0682</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>15:00</td>
+                                    <td>Vancouver</td>
+                                    <td>DL 9394</td>
+                                    <td>Delta Air Lines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>15:10</td>
+                                    <td>London City</td>
+                                    <td>BA 8453</td>
+                                    <td>British Airways</td>
+                                    <td>Geannuleerd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>15:10</td>
+                                    <td>Mexico City</td>
+                                    <td>KL 0686</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Vertraagd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>15:10</td>
+                                    <td>Manchester</td>
+                                    <td>KL 1082</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Geannuleerd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>15:10</td>
+                                    <td>Manchester</td>
+                                    <td>NW 8350</td>
+                                    <td>Northwest Airlines</td>
+                                    <td>Geannuleerd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                                <tr class="shade">
+                                    <td>15:15</td>
+                                    <td>Beijing</td>
+                                    <td>KL 0898</td>
+                                    <td>KLM Royal Dutch Airlines</td>
+                                    <td>Vervroegd</td>
+                                    <td><a href="" class="details">Details</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="overflow bottom">
+                        <ul class="pager">
+                            <li class="selected"><a href="" class="normal" title="1">1</a> |</li>
+                            <li><a href="" class="normal" title="2">2</a> |</li>
+                            <li><a href="" class="normal" title="3">3</a> |</li>
+                            <li><a href="" class="normal" title="4">4</a> |</li>
+                            <li><a href="" class="normal" title="5">5</a> |</li>
+                            <li><a href="" class="normal" title="6">6</a> |</li>
+                            <li><a href="" class="normal" title="7">7</a> |</li>
+                            <li><a href="" class="normal" title="8">8</a> |</li>
+                            <li><a href="" class="normal" title="9">9</a> |</li>
+                            <li><a href="" class="normal" title="10">10</a></li>
+                            <li class="more">| <a href="" class="normal" title="volgende">volgende</a></a></li>
+                        </ul>
+                        1 - 30 van 496 vluchten
+                    </div>
+                    <div class="overflow bottom last">
+                        <div class="help"></div>
+                        <div class="rightbox"></div>
+                    </div>
+                </div>
+                <div id="portletSpacer"></div>
+            </div>
+        </div>
+    </div>
+    <div id="links">
+        <ul>
+            <li><h2>Informatief</h2></li>
+            <li><a href="" class="normal" title="Schiphol TV">Schiphol TV</a></li>
+            <li><a href="" class="normal" title="Vacatures">A world of opportunities</a></li>
+            <li><a href="" class="normal" title="In de samenleving">In de Samenleving</a></li>
+            <li><a href="" class="normal" title="Schiphol Group">Schiphol Group</a></li>
+            <li><a href="" class="normal" title="B2B">B2B</a></li>
+        </ul>
+        <ul>
+            <li><h2>Voor reizigers</h2></li>
+            <li><a href="" class="normal" title="Vluchttijden">Aankomst- en vertrektijden</a></li>
+            <li><a href="" class="normal" title="Openbaar vervoer">Openbaar vervoer</a></li>
+            <li><a href="" class="normal" title="Parkeren">Parkeren</a></li>
+            <li><a href="" class="normal" title="Winkelen &amp; ontspannen">Winkelen</a></li>
+            <li><a href="" class="normal" title="Plattegronden">Plattegronden</a></li>
+        </ul>
+        <ul class="last">
+            <li><h2>Laatst door u bezocht</h2></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <h1><strong>Schiphol.</strong> Where else</h1>
+        <ul>
+            <li>&copy; Schiphol 2009</li>
+            <li><a href="" class="navigation" title="Contact">Contact</a></li>
+            <li><a href="" class="navigation" title="Sitemap">Sitemap</a></li>
+            <li><a href="" class="navigation" title="Disclaimer">Disclaimer</a></li>
+            <li><a href="" class="navigation" title="Privacy Policy">Privacy Policy</a></li>
+            <li class="last"><a href="" class="navigation" title="Schipholregels">Schipholregels</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
